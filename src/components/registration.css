@@ -1,0 +1,62 @@
+body{
+    background: #bdc3c7;
+    background: -webkit-gradient(to right, #ffffff, #bdc3c7);
+    background: linear-gradient(to right, #ffffff, #bdc3c7);
+}
+
+.form{
+    background-color: white;
+    border-radius: 5px;
+    width: 550px;
+    margin: 20px auto;
+    padding: 20px;
+    margin-top: 13rem;
+    
+    /*height: 600px;*/
+}
+
+.form-body > *{
+    padding: 5px;
+}
+
+.form_lable{
+    width: 40%;
+}
+
+.form_input{
+    width: 60%;
+}
+.footer{
+    text-align: center;
+    margin-top: 4px;
+}
+.btn_login{
+    background-color:rgb(25, 118, 210)!important;  
+}
+.btn_password{
+    background-color:red!important;
+    width: 100% !important;
+}
+.forgot_password{
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+.no_account{
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    color: rgb(25, 118, 210);
+    text-decoration: underline rgb(25, 118, 210);
+}
+.css_ww{
+display: right !important;
+flex-basis: 0%;
+-webkit-box-flex: 1;
+flex-grow: 1;
+max-width: 100%;
+
+}
